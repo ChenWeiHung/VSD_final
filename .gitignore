@@ -1,0 +1,3 @@
+# 忽略大檔案
+tb/*.fsdb
+src/CLIBs/EXPLORE_physical_only.ndm/
