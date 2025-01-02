@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1735838651.302454323, "rt":0.18, "ut":0.06, "st":0.11}}
-{"vcselab":{"timestamp_begin":1735838651.508753591, "rt":0.11, "ut":0.06, "st":0.05}}
-{"link":{"timestamp_begin":1735838651.640063078, "rt":0.08, "ut":0.03, "st":0.04}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1735838651.204995810}
-{"VCS_COMP_START_TIME": 1735838651.204995810}
-{"VCS_COMP_END_TIME": 1735838652.001933599}
-{"VCS_USER_OPTIONS": "-full64 -sverilog -R -debug_access+all -sverilog testbench_fibonacci.v +incdir+./+../src"}
-{"vcs1": {"peak_mem": 312192}}
-{"vcselab": {"peak_mem": 166420}}
