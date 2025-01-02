@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Chip
+Version: W-2024.09
+Date   : Thu Jan  2 23:29:48 2025
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ss0p6vm40c   Library: saed14slvt_ss0p6vm40c
+Wire Load Model Mode: top
+
+  Startpoint: dm_read_data[7]
+              (input port clocked by clk)
+  Endpoint: cpu_inst_u_mem_wb_stage_WB_dm_dataout_reg_7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Chip               1000000               saed14slvt_dlvl_ff0p7v125c_i0p7v
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.60       0.60 r
+  dm_read_data[7] (in)                                    0.00       0.60 r
+  dm_read_data_pads_7__dm_read_data_pad/PADIO (B4I1025_EW)
+                                                        309.13     309.73 r
+  dm_read_data_pads_7__dm_read_data_pad/DOUT (B4I1025_EW)
+                                                          0.06     309.79 r
+  U5106/X (SAEDSLVT14_ND2_ECO_1)                          0.08     309.87 f
+  U5115/X (SAEDSLVT14_ND2_ECO_1)                          0.09     309.96 r
+  cpu_inst_u_mem_wb_stage_WB_dm_dataout_reg_7_/D (SAEDSLVT14_FDP_V2LP_1)
+                                                          0.07     310.03 r
+  data arrival time                                                310.03
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  clock uncertainty                                      -0.01       0.99
+  cpu_inst_u_mem_wb_stage_WB_dm_dataout_reg_7_/CK (SAEDSLVT14_FDP_V2LP_1)
+                                                          0.00       0.99 r
+  library setup time                                     -0.01       0.98
+  data required time                                                 0.98
+  --------------------------------------------------------------------------
+  data required time                                                 0.98
+  data arrival time                                               -310.03
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -309.05
+
+
+1

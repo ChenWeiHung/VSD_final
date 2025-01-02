@@ -1,0 +1,243 @@
+ 
+****************************************
+Report : reference
+Design : Chip
+Version: W-2024.09
+Date   : Thu Jan  2 23:29:48 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+B4I1025_EW         saed14io_fc_ss0p72v125c_1p62v
+                               5000.000000     130  650000.000000 n
+I1025_NS           saed14io_fc_ss0p72v125c_1p62v
+                               5000.000000       2  10000.000000  
+RegFile                        2714.882408       1   2714.882408  h, n
+SAEDSLVT14_ADDF_V1_0P5
+                   saed14slvt_ff0p7v125c
+                                  1.021200      30     30.635998  r
+SAEDSLVT14_ADDF_V1_1
+                   saed14slvt_ff0p7v125c
+                                  1.021200       1      1.021200  r
+SAEDSLVT14_AN2B_PMM_2
+                   saed14slvt_ff0p7v125c
+                                  0.444000       1      0.444000  
+SAEDSLVT14_AN2_MM_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.310800      15      4.662000  
+SAEDSLVT14_AN3_0P5 saed14slvt_ff0p7v125c
+                                  0.355200      50     17.760000  
+SAEDSLVT14_AN3_0P75
+                   saed14slvt_ff0p7v125c
+                                  0.355200       6      2.131200  
+SAEDSLVT14_AO2BB2_V1_1
+                   saed14slvt_ff0p7v125c
+                                  0.621600       2      1.243200  
+SAEDSLVT14_AO2BB2_V1_2
+                   saed14slvt_ff0p7v125c
+                                  0.666000       6      3.996000  
+SAEDSLVT14_AO21B_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.355200       9      3.196800  
+SAEDSLVT14_AO21_U_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.355200       1      0.355200  
+SAEDSLVT14_AO22_0P75
+                   saed14slvt_ff0p7v125c
+                                  0.532800      49     26.107201  
+SAEDSLVT14_AO31_U_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.710400       2      1.420800  
+SAEDSLVT14_AOI21_0P75
+                   saed14slvt_ff0p7v125c
+                                  0.266400      81     21.578401  
+SAEDSLVT14_AOINV_IW_1
+                   saed14slvt_ff0p7v125c
+                                  0.399600       5      1.998000  
+SAEDSLVT14_AOINV_IW_4
+                   saed14slvt_ff0p7v125c
+                                  0.532800       1      0.532800  
+SAEDSLVT14_BUF_1P5 saed14slvt_ff0p7v125c
+                                  0.310800      10      3.108000  
+SAEDSLVT14_BUF_ECO_1
+                   saed14slvt_ff0p7v125c
+                                  0.266400      11      2.930400  
+SAEDSLVT14_BUF_PS_0P75
+                   saed14slvt_ff0p7v125c
+                                  0.310800       4      1.243200  
+SAEDSLVT14_BUF_S_0P75
+                   saed14slvt_ff0p7v125c
+                                  0.266400      11      2.930400  
+SAEDSLVT14_BUF_S_2 saed14slvt_ff0p7v125c
+                                  0.310800       1      0.310800  
+SAEDSLVT14_BUF_S_3 saed14slvt_ff0p7v125c
+                                  0.399600       1      0.399600  
+SAEDSLVT14_BUF_U_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.266400      36      9.590400  
+SAEDSLVT14_DEL_R2V1_1
+                   saed14slvt_ff0p7v125c
+                                  0.310800       3      0.932400  
+SAEDSLVT14_EN2_1   saed14slvt_ff0p7v125c
+                                  0.532800      49     26.107201  
+SAEDSLVT14_EN2_2   saed14slvt_ff0p7v125c
+                                  0.621600       1      0.621600  
+SAEDSLVT14_EO2_0P5 saed14slvt_ff0p7v125c
+                                  0.488400       4      1.953600  
+SAEDSLVT14_EO2_1   saed14slvt_ff0p7v125c
+                                  0.488400       1      0.488400  
+SAEDSLVT14_EO2_V1_0P75
+                   saed14slvt_ff0p7v125c
+                                  0.444000      52     23.088000  
+SAEDSLVT14_FDPCBQ_V2LP_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.976800       2      1.953600  n
+SAEDSLVT14_FDPCBQ_V2LP_2
+                   saed14slvt_ff0p7v125c
+                                  1.021200      55     56.165997  n
+SAEDSLVT14_FDPCBQ_V3_2
+                   saed14slvt_ff0p7v125c
+                                  1.420800      17     24.153600  n
+SAEDSLVT14_FDPQ_V2_6
+                   saed14slvt_ff0p7v125c
+                                  1.465200       1      1.465200  n
+SAEDSLVT14_FDPSYNSBQ_V2_0P5
+                   saed14slvt_ff0p7v125c
+                                  1.065600       4      4.262400  n
+SAEDSLVT14_FDPSYNSBQ_V2_1
+                   saed14slvt_ff0p7v125c
+                                  1.065600      44     46.886402  n
+SAEDSLVT14_FDP_V2LP_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.932400     103     96.037199  n
+SAEDSLVT14_FDP_V2LP_1
+                   saed14slvt_ff0p7v125c
+                                  0.932400     158    147.319198  n
+SAEDSLVT14_FDP_V2LP_2
+                   saed14slvt_ff0p7v125c
+                                  1.021200      23     23.487599  n
+SAEDSLVT14_FDP_V2_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.932400      17     15.850800  n
+SAEDSLVT14_FDP_V2_1
+                   saed14slvt_ff0p7v125c
+                                  0.932400      19     17.715600  n
+SAEDSLVT14_INV_0P5 saed14slvt_ff0p7v125c
+                                  0.177600     594    105.494398  
+SAEDSLVT14_INV_0P75
+                   saed14slvt_ff0p7v125c
+                                  0.177600      68     12.076800  
+SAEDSLVT14_INV_1P5 saed14slvt_ff0p7v125c
+                                  0.177600      10      1.776000  
+SAEDSLVT14_INV_S_1P5
+                   saed14slvt_ff0p7v125c
+                                  0.222000       1      0.222000  
+SAEDSLVT14_INV_S_3 saed14slvt_ff0p7v125c
+                                  0.310800       1      0.310800  
+SAEDSLVT14_INV_S_7 saed14slvt_ff0p7v125c
+                                  0.488400       2      0.976800  
+SAEDSLVT14_MUX2_1  saed14slvt_ff0p7v125c
+                                  0.488400       8      3.907200  
+SAEDSLVT14_MUX2_U_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.444000      73     32.412000  
+SAEDSLVT14_MUXI2_U_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.399600       3      1.198800  
+SAEDSLVT14_ND2B_U_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.310800     125     38.849998  
+SAEDSLVT14_ND2_0P5 saed14slvt_ff0p7v125c
+                                  0.310800       3      0.932400  
+SAEDSLVT14_ND2_CDC_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.222000    1548    343.656004  
+SAEDSLVT14_ND2_CDC_2
+                   saed14slvt_ff0p7v125c
+                                  0.310800       1      0.310800  
+SAEDSLVT14_ND2_ECO_1
+                   saed14slvt_ff0p7v125c
+                                  0.355200      42     14.918400  
+SAEDSLVT14_ND2_MM_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.310800      63     19.580399  
+SAEDSLVT14_ND3B_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.532800      25     13.320000  
+SAEDSLVT14_ND3B_0P75
+                   saed14slvt_ff0p7v125c
+                                  0.532800      47     25.041601  
+SAEDSLVT14_ND3_0P5 saed14slvt_ff0p7v125c
+                                  0.444000      27     11.988000  
+SAEDSLVT14_ND3_2   saed14slvt_ff0p7v125c
+                                  0.710400       1      0.710400  
+SAEDSLVT14_ND3_ECO_1
+                   saed14slvt_ff0p7v125c
+                                  0.754800       4      3.019200  
+SAEDSLVT14_NR2B_0P75
+                   saed14slvt_ff0p7v125c
+                                  0.488400       4      1.953600  
+SAEDSLVT14_NR2B_U_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.488400       3      1.465200  
+SAEDSLVT14_NR2_1   saed14slvt_ff0p7v125c
+                                  0.222000     360     79.920001  
+SAEDSLVT14_NR2_2   saed14slvt_ff0p7v125c
+                                  0.310800       1      0.310800  
+SAEDSLVT14_NR2_MM_1
+                   saed14slvt_ff0p7v125c
+                                  0.222000      17      3.774000  
+SAEDSLVT14_NR3B_U_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.532800       2      1.065600  
+SAEDSLVT14_NR3_0P5 saed14slvt_ff0p7v125c
+                                  0.444000      35     15.540000  
+SAEDSLVT14_NR3_1   saed14slvt_ff0p7v125c
+                                  0.444000       1      0.444000  
+SAEDSLVT14_NR4_0P75
+                   saed14slvt_ff0p7v125c
+                                  0.488400      75     36.630001  
+SAEDSLVT14_OA21B_1 saed14slvt_ff0p7v125c
+                                  0.355200      61     21.667200  
+SAEDSLVT14_OA21_1  saed14slvt_ff0p7v125c
+                                  0.355200     105     37.295999  
+SAEDSLVT14_OA21_MM_1
+                   saed14slvt_ff0p7v125c
+                                  0.399600       8      3.196800  
+SAEDSLVT14_OA31_1  saed14slvt_ff0p7v125c
+                                  0.399600       7      2.797200  
+SAEDSLVT14_OA211_1 saed14slvt_ff0p7v125c
+                                  0.666000      40     26.640000  
+SAEDSLVT14_OAI21_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.266400     311     82.850403  
+SAEDSLVT14_OAI22_0P5
+                   saed14slvt_ff0p7v125c
+                                  0.310800      26      8.080800  
+SAEDSLVT14_OR2_0P5 saed14slvt_ff0p7v125c
+                                  0.310800       4      1.243200  
+SAEDSLVT14_OR3_0P5 saed14slvt_ff0p7v125c
+                                  0.355200       6      2.131200  
+SAEDSLVT14_OR3_1   saed14slvt_ff0p7v125c
+                                  0.355200       1      0.355200  
+SAEDSLVT14_OR4_1   saed14slvt_ff0p7v125c
+                                  0.399600       2      0.799200  
+SAEDSLVT14_TIE0_V1_2
+                   saed14slvt_ff0p7v125c
+                                  0.488400       1      0.488400  
+SAEDSLVT14_TIE1_4  saed14slvt_ff0p7v125c
+                                  0.399600       1      0.399600  
+-----------------------------------------------------------------------------
+Total 84 references                                 664300.717207
+1

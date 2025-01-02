@@ -1,0 +1,5 @@
+{"vcs1":{"timestamp_begin":1735838693.733419312, "rt":0.03, "ut":0.01, "st":0.01}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1735838693.638989537}
+{"VCS_COMP_START_TIME": 1735838693.638989537}
+{"VCS_COMP_END_TIME": 1735838694.021041699}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -R -debug_access+all -sverilog testbench_fibonacci.v +incdir+./+../src"}

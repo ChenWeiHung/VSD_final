@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : Chip
+Version: W-2024.09
+Date   : Thu Jan  2 23:29:48 2025
+****************************************
+
+Library(s) Used:
+
+    saed14slvt_ff0p7v125c (File: /home/summer/cell_library/SAED/14/stdcell_slvt/db_ccs/saed14slvt_ff0p7v125c.db)
+    saed14io_fc_ss0p72v125c_1p62v (File: /home/summer/cell_library/SAED/14/io/lib/io_std/db_ccs/saed14io_fc_ss0p72v125c_1p62v.db)
+
+Number of ports:                          247
+Number of nets:                         12952
+Number of cells:                        11996
+Number of combinational cells:          10430
+Number of sequential cells:              1565
+Number of macros/black boxes:               0
+Number of buf/inv:                       2246
+Number of references:                      84
+
+Combinational area:              12922.008413
+Buf/Inv area:                      421.844393
+Noncombinational area:          651378.708794
+Macro/Black Box area:                0.000000
+Net Interconnect area:           20420.349308
+
+Total cell area:                664300.717207
+Total area:                     684721.066515
+1
